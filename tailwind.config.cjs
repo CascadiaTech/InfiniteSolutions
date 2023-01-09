@@ -11,11 +11,22 @@ module.exports = {
   ],
   theme: {
     screens: {
+      tn: '400px',
       sm: '450px',
       md: '700px',
       lg: '1024px',
       xl: '1280px',
       '2xl': '1536px',
+    },
+    fontSize: {
+      sm: '0.8rem',
+      lg: '1rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '2.5rem',
+      '4xl': '3.441rem',
+      '5xl': '5rem',
+      '6xl': '5.8rem',
     },
     extend: {
       height: {

@@ -11,16 +11,18 @@ export default function DualCardComponent() {
     }, [window.scrollY]);
   }
   return (
-    <div>
-      <div className="flex space-y-8 my-20 js-show-on-scroll justify-center flex-col ... ">
-        <div className="flex justify-between flex-col md:flex-row ...">
-          <div className="p-6 max-w-sm elevation-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className={''}>
+      <div className="flex space-y-8 -my-20 js-show-on-scroll justify-center ">
+        
+        <div className="flex flex-col md:flex-row mx-auto justify-center">
+          <div className="p-6 max-w-sm elevation-10 rounded-xl border-4 border-cyan-600	shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Bringing Liquidity to Real Estate
+              <h5 style={{ fontFamily: 'Equinox' }}
+               className="mb-2 text-2xl font-bold text-gray-100 dark:text-white">
+                Development skills
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p className="mb-3 font-normal text-gray-200 dark:text-gray-400">
               Buy and Sell Tokenized Realestate with the click of a button!
             </p>
             <a
@@ -44,13 +46,17 @@ export default function DualCardComponent() {
             </a>
           </div>
 
-          <div className="p-6 max-w-sm bg-white rounded-lg border elevation-10 border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <p className={'px-4'}></p>
+          <p className={'py-4'}></p>
+
+          <div className="p-6 max-w-sm rounded-xl border-4 border-cyan-600 elevation-10 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Unlock Liquidity in Your Properties
+              <h5 style={{ fontFamily: 'Equinox' }}
+               className="mb-2 text-2xl font-bold text-gray-100 dark:text-white">
+                Upgrade your marketing game. Manage your communities
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p className="mb-3 font-normal text-gray-200 dark:text-gray-200">
               Dont want to get rid of your property? Unlock your liquidity by tokenizing your real estate and selling tokens backed bythe equity in your property.
             </p>
             <a
@@ -74,13 +80,17 @@ export default function DualCardComponent() {
             </a>
           </div>
 
-          <div className="p-6 max-w-sm bg-white elevation-10 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <p className={'px-4'}></p>
+          <p className={'py-4'}></p>
+
+          <div className="p-6 max-w-sm elevation-10 rounded-xl border-4 border-cyan-600 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Trade Real estate assets on a crypto exchange
+              <h5 style={{ fontFamily: 'Equinox' }}
+              className="mb-2 text-2xl font-bold text-gray-100 dark:text-white">
+                Contact us for any project needs or ideas
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p className="mb-3 font-normal text-gray-200 dark:text-gray-200">
               Hand pick your own real estate portfolio.
             </p>
             <a
