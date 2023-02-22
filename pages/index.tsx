@@ -7,8 +7,10 @@ import "tailwindcss-elevation";
 import FooterComponent from "../components/Footer/FooterComponent";
 import Link from "next/link";
 import blueGraphic from "../assets/images/Blue-graphic.jpg"
+import hexGraphic from "../assets/images/purpleGraphic.png"
 import city from "../assets/images/city.jpeg";
 import city3 from "../assets/images/city3.png";
+import profpic from "../assets/images/Profpic.png"
 import DualCardComponent from "../components/DualCards/DualCardComponent";
 import ScrollpositionAnimation from "../hooks/OnScroll";
 import { useEffect } from "react";
@@ -65,14 +67,14 @@ const Home: NextPage = () => {
             {" "}
             <HeaderComponent></HeaderComponent>
           </header>
-          <div className="flex flex my-20 col justify-center mx-auto max-w-full w-screen py-20 md:py-12 lg:py-8">
-            <div className="absolute z-10 pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-52">
-              <main className="mx-auto px-4 js-show-on-scroll">
-                <div className="sm:text-center text-center lg:text-center">
+          <div className="flex flex my-20 col justify-center mx-auto max-w-full w-screen">
+            <div className="pb-8 sm:pb-16 md:pb-20 ">
+              <main className="mx-auto px-4">
+                <div className="sm:text-center js-show-on-scroll text-center tn:mt-12 sm:mt-10 md:mt-2 lg:mt-0 lg:text-center ">
                   <p className="text-4xl text-gray-100 sm:text-5xl md:text-6xl">
                     <span style={{ fontFamily: 'Equinox' }} className="block xl:inline">Infinite Solutions</span>
                   </p>
-                  <p style={{ fontFamily: 'Exan-regular' }} className="mt-4 text-center justify-center mx-auto text-2xl text-gray-300">
+                  <p style={{ fontFamily: 'Exan-regular' }} className="mt-1 text-center justify-center mx-auto text-2xl text-gray-300">
                     Bringing Excellent Solutions <br /> For Difficult Problems
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
@@ -92,15 +94,39 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                 </div>
+                  
+          <div className={'flex flex col mx-auto justify-center text-center my-32'}>
+          <DualCardComponent></DualCardComponent>
+          </div>
               </main>
             </div>
           </div>
-          <DualCardComponent></DualCardComponent>
-
-          <Image className={'z-0 relative'} src={blueGraphic} alt=""></Image>
-          <p className={"my-40"}></p>
+          <p className={""}></p>
+          <div className={'flex flex col mx-auto justify-center text-center'}>
           <AboutusComponent></AboutusComponent>
+          </div>
         </main>
+        <h1 style={{ fontFamily: 'Equinox' }} className={"js-show-on-scroll text-center text-3xl md:text-4xl"}>
+            Here is our Team
+          </h1>
+        <div 
+          className={
+            "flex flex-row text-center justify-center mx-24 my-10 px-10 py-16 rounded-2xl border-indigo-200/[.001] border-r-cyan-500 border-b-2 border-b-cyan-500 border-l-cyan-500 mx-2 js-show-on-scroll tn:px-3 sm:px-4 md:px-7 lg:px-10"
+          }
+          style={{
+            boxShadow:
+              "inset 0px -8px 14px 5px rgba(66,35,255,0.4), inset 0px -9px 14px 5px rgba(14,101,255,0.5), 0px 10px 14px 2px rgba(14,101,255,0.5), 0px 10px 14px 2px rgba(14,101,255,0.5)",
+          }}>
+          <Image width={100} height={100} src={profpic}></Image>
+          <p className={"px-10"}></p>
+          <Image width={100} height={100} src={profpic}></Image>
+          <p className={"px-10"}></p>
+          <Image width={100} height={100} src={profpic}></Image>
+          <p className={"px-10"}></p>
+          <Image width={100} height={100} src={profpic}></Image>
+          <p className={"px-10"}></p>
+          <Image width={100} height={100} src={profpic}></Image>
+        </div>
       </div>
       <FooterComponent></FooterComponent>
     </div>

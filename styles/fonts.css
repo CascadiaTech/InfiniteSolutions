@@ -28,3 +28,9 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "Equinox";
+    src: url("/fonts/Aquire.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

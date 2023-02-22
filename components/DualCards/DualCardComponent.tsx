@@ -12,7 +12,7 @@ export default function DualCardComponent() {
   }
   return (
     <div className={''}>
-      <div className="flex space-y-8 -my-20 js-show-on-scroll justify-center ">
+      <div className="-my-20 js-show-on-scroll justify-center ">
         
         <div className="flex flex-col md:flex-row mx-auto justify-center">
           <div className="p-6 max-w-sm elevation-10 rounded-xl border-4 border-cyan-600	shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -23,11 +23,12 @@ export default function DualCardComponent() {
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-200 dark:text-gray-400">
-              Buy and Sell Tokenized Realestate with the click of a button!
+              From creating UI web components for your application for style and layout to 
+              coding creative smart contracts for your web3 functionality. We can program everything you need.
             </p>
             <a
               href="#"
-              className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
             >
               Read more
               <svg
@@ -49,7 +50,7 @@ export default function DualCardComponent() {
           <p className={'px-4'}></p>
           <p className={'py-4'}></p>
 
-          <div className="p-6 max-w-sm rounded-xl border-4 border-cyan-600 elevation-10 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="p-6 max-w-sm rounded-xl border-4 border-cyan-600 elevation-10 shadow-md">
             <a href="#">
               <h5 style={{ fontFamily: 'Equinox' }}
                className="mb-2 text-2xl font-bold text-gray-100 dark:text-white">
@@ -57,7 +58,8 @@ export default function DualCardComponent() {
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-200 dark:text-gray-200">
-              Dont want to get rid of your property? Unlock your liquidity by tokenizing your real estate and selling tokens backed bythe equity in your property.
+              If you would like help on managing your communities, spreading the word of your new idea
+              or bringing hype to your platform. Our company has marketers and community mangers that could assist.
             </p>
             <a
               href="#"
@@ -91,7 +93,7 @@ export default function DualCardComponent() {
               </h5>
             </a>
             <p className="mb-3 font-normal text-gray-200 dark:text-gray-200">
-              Hand pick your own real estate portfolio.
+              We are always welcome to a new idea or project. There is no such thing as being too busy!
             </p>
             <a
               href="#"
