@@ -22,7 +22,7 @@ export default function DualCardComponent() {
                 Development skills
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-200 dark:text-gray-400">
+            <p className="mb-3 text-xl text-gray-200 dark:text-gray-400">
               From creating UI web components for your application for style and layout to 
               coding creative smart contracts for your web3 functionality. We can program everything you need.
             </p>
@@ -57,7 +57,7 @@ export default function DualCardComponent() {
                 Upgrade your marketing game. Manage your communities
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-200 dark:text-gray-200">
+            <p className="mb-3 font-normal text-xl text-gray-200 dark:text-gray-200">
               If you would like help on managing your communities, spreading the word of your new idea
               or bringing hype to your platform. Our company has marketers and community mangers that could assist.
             </p>
@@ -92,7 +92,7 @@ export default function DualCardComponent() {
                 Contact us for any project needs or ideas
               </h5>
             </a>
-            <p className="mb-3 font-normal text-gray-200 dark:text-gray-200">
+            <p className="mb-3 font-normal text-xl text-gray-200 dark:text-gray-200">
               We are always welcome to a new idea or project. There is no such thing as being too busy!
             </p>
             <a

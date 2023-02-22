@@ -106,27 +106,6 @@ const Home: NextPage = () => {
           <AboutusComponent></AboutusComponent>
           </div>
         </main>
-        <h1 style={{ fontFamily: 'Equinox' }} className={"js-show-on-scroll text-center text-3xl md:text-4xl"}>
-            Here is our Team
-          </h1>
-        <div 
-          className={
-            "flex flex-row text-center justify-center mx-24 my-10 px-10 py-16 rounded-2xl border-indigo-200/[.001] border-r-cyan-500 border-b-2 border-b-cyan-500 border-l-cyan-500 mx-2 js-show-on-scroll tn:px-3 sm:px-4 md:px-7 lg:px-10"
-          }
-          style={{
-            boxShadow:
-              "inset 0px -8px 14px 5px rgba(66,35,255,0.4), inset 0px -9px 14px 5px rgba(14,101,255,0.5), 0px 10px 14px 2px rgba(14,101,255,0.5), 0px 10px 14px 2px rgba(14,101,255,0.5)",
-          }}>
-          <Image width={100} height={100} src={profpic}></Image>
-          <p className={"px-10"}></p>
-          <Image width={100} height={100} src={profpic}></Image>
-          <p className={"px-10"}></p>
-          <Image width={100} height={100} src={profpic}></Image>
-          <p className={"px-10"}></p>
-          <Image width={100} height={100} src={profpic}></Image>
-          <p className={"px-10"}></p>
-          <Image width={100} height={100} src={profpic}></Image>
-        </div>
       </div>
       <FooterComponent></FooterComponent>
     </div>
@@ -134,8 +113,26 @@ const Home: NextPage = () => {
 };
 
 export default Home;
-//<footer className={styles.footer}>
 
-//          <span className={styles.logo}>
-//<Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-//</span>
+  //TEAM SECTION
+   //<h1 style={{ fontFamily: 'Equinox' }} className={"js-show-on-scroll text-center text-3xl md:text-4xl"}>
+   //Here is our Team
+   //</h1>
+   //<div 
+   //className={
+   //"flex flex-row text-center justify-center mx-24 my-10 px-10 py-16 rounded-2xl border-indigo-200/[.001] border-r-cyan-500 border-b-2 border-b-cyan-500 border-l-cyan-500 mx-2 js-show-on-scroll tn:px-3 sm:px-4 md:px-7 lg:px-10"
+   //}
+   //style={{
+   //boxShadow:
+   //  "inset 0px -8px 14px 5px rgba(66,35,255,0.4), inset 0px -9px 14px 5px rgba(14,101,255,0.5), 0px 10px 14px 2px rgba(14,101,255,0.5), 0px 10px 14px 2px rgba(14,101,255,0.5)",
+   //}}>
+   //<Image width={100} height={100} src={profpic}></Image>
+   //<p className={"px-10"}></p>
+   //<Image width={100} height={100} src={profpic}></Image>
+   //<p className={"px-10"}></p>
+   //<Image width={100} height={100} src={profpic}></Image>
+   //<p className={"px-10"}></p>
+   //<Image width={100} height={100} src={profpic}></Image>
+   //<p className={"px-10"}></p>
+   //<Image width={100} height={100} src={profpic}></Image>
+   //</div>
