@@ -22,17 +22,9 @@ export default function Aboutus() {
             About Us
           </h1>
           <p className="mb-6 text-lg font-normal text-white-500 lg:text-xl mx-6 px-4 sm:px-16 xl:px-48 dark:text-white-400">
-            estate has also always had a high entry cost, forbidding many from
-            being able to enter. Additionally, liquidity has also always been a
-            significant challenge within the market. Our primary objective here
-            at REX is to bring to accessibility and liquidity to the real estate
-            market. We are doing this by bringing you the first truly
-            fractionalized real estate tokenization and cryptocurrency exchange
-            platform to your hands. Our team is composed of real estate, crypto,
-            and finance professionals with a vision. Coming from all over the
-            world with decades of experience in our respective fields, we have
-            joined forces to solve this centuries old problem in a legal and
-            efficient manner.
+          We are a team of talented individuals looking to make a difference in Web3. Our industry is seen in a negative light by too many people, and we are here to change that. By bringing professionalism to the industry,
+          delivering unique utilities, and presenting them through sound marketing strategies. We have a full team of graphic designers, 3D animators, 2D illustrators, content writers, public speakers, and developers ready to take your concept
+          and turn it into reality. Join Infinite Solutions on our journey to elevate Web3. 
           </p>
         </div>
         <div className="flex space-y-8 my-20 js-show-on-scroll">
@@ -54,14 +46,13 @@ export default function Aboutus() {
               </svg>
               <a href="#">
                 <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                  Security
+                  Communicative
                 </h5>
               </a>
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                The REX Exchange will be a decentralized exchange, meaning that
-                once launched the code cannot be altered. We will be conducting
-                full security audits of the code before launch to mitigate any
-                risks.
+                We like to integrate with your team and vision, to get a true understanding of what your idea is all about, we pride ourselves on our
+                ability to communicate complex concepts and ideas.
+    
               </p>
             </div>
 
@@ -84,13 +75,11 @@ export default function Aboutus() {
               </svg>
               <a href="#">
                 <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                  Compliance
+                  Efficient
                 </h5>
               </a>
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                Our Chief Compliance Officer has enacted standard KYC/AML
-                procedures not only to comply with laws and regulations, but
-                also to verify each individual tokenized property
+                Our timelines are reasonable, and we stick to them. We have talented team members that are dedicated to their craft to make your project a success
               </p>
             </div>
 
@@ -113,13 +102,12 @@ export default function Aboutus() {
               </svg>
               <a href="#">
                 <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                  Expansion
+                  Innovative
                 </h5>
               </a>
               <p className="mb-3 font-normal text-gray-500 dark:text-grey-400">
-                Not only do we aim to provide a tokenized real estate exchange
-                on a global level, we aim to provide tokenized real estate
-                services on every industry level through vertical integration
+               We like to stretch the bounds of what is possible, and let our creative sides shine. If you have a unique concept that needs to be thought out
+               We can be there for you to consult on the best path forward as subject-matter-experts.
               </p>
             </div>
           </div>

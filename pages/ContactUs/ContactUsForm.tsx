@@ -61,8 +61,8 @@ export default function ContactUsFormPage() {
               Contact Us
             </h2>
             <p className="mb-8 lg:mb-16 font-light text-center text-gray-100 dark:text-gray-400 sm:text-xl">
-              If you are an investor interested in learning more, or a client
-              with feedback please contact us using the form below!
+              If you are interested in our services, please use the contact form below and one of our team members will get into contact with you. 
+              If you are interested in a proposal, please give a detailed explaination of your idea below. 
             </p>
                 <form ref={form} onSubmit={sendEmail} className="space-y-8">
                   <div>
