@@ -54,12 +54,12 @@ export default function ContactUsFormPage() {
 
             <section className="bg-black">
               <div className="py-40 md:py-24 lg:py-16 px-4 mx-auto max-w-screen-md">
-              <h2
-              style={{ fontFamily: "Exan-regular" }}
-              className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-100"
+              <p
+              style={{ fontFamily: "Equinox" }}
+              className="text-4xl text-gray-100 sm:text-5xl md:text-6xl"
             >
               Contact Us
-            </h2>
+            </p>
             <p className="mb-8 lg:mb-16 font-light text-center text-gray-100 dark:text-gray-400 sm:text-xl">
               If you are interested in our services, please use the contact form below and one of our team members will get into contact with you. 
               If you are interested in a proposal, please give a detailed explaination of your idea below. 
@@ -73,6 +73,7 @@ export default function ContactUsFormPage() {
                       Your email
                     </label>
                     <input
+                    className={'bg-black'}
                       onChange={(e) => setemail(e.target.value)}
                       type="text"
                       id="from_email"
@@ -88,6 +89,7 @@ export default function ContactUsFormPage() {
                       Subject
                     </label>
                     <input
+                    className={'bg-black'}
                       onChange={(e) => setsubject(e.target.value)}
                       type="text"
                       id="subject"
@@ -103,6 +105,7 @@ export default function ContactUsFormPage() {
                       Your message
                     </label>
                     <input
+                    className={'bg-black'}
                       onChange={(e) => setmessage(e.target.value)}
                       type="text"
                       id="message"

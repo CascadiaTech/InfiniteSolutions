@@ -63,17 +63,9 @@ export default function FooterComponent() {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="" className="hover:underline">
+                  <p className="hover:underline">
                     InfiniteSolutions
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href=""
-                    className="hover:underline"
-                  >
-                    Documents
-                  </a>
+                  </p>
                 </li>
               </ul>
             </div>
@@ -84,7 +76,7 @@ export default function FooterComponent() {
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
                   <a
-                    href="https://t.me/+JXVbIJJJemliMjY5"
+                    href="https://t.me/+ZKGkpOl4Emw3NjIx"
                     className="hover:underline "
                   >
                     Telegram

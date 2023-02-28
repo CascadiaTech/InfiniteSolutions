@@ -23,9 +23,9 @@ export default function DevTeam() {
         <HeaderComponent></HeaderComponent>
         <main className={styles.main}>
           <div className="flex flex-col text-center mt-48 justify-center">
-            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white-900 md:text-5xl lg:text-6xl dark:text-white">
-              Here's what we have to offer
-            </h1>
+          <p style={{ fontFamily: 'Equinox' }} className="text-3xl text-gray-100 sm:text-4xl md:text-5xl">
+              Here are past projects we have developed
+            </p>
 
             <p className="mb-6 text-lg font-normal text-white-500 lg:text-xl sm:px-16 xl:px-48 dark:text-white-400">
               Here are a few apps that InfiniteSolutions has developed. District 82 is a meme token with a token 
@@ -48,12 +48,14 @@ export default function DevTeam() {
                 <p className="mb-3 font-normal text-center text-gray-300">
                   The District82 is all about bringing fans to games
                 </p>
+                  <a href="https://district82.vercel.app/">
                 <button
                   type="button"
                   className="text-white text-lg bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                 >
                   Go see the App
                 </button>
+                </a>
               </div>
 
               <p className={"px-10"}></p>
@@ -68,12 +70,14 @@ export default function DevTeam() {
                 <p className="mb-3 font-normal text-center text-gray-300">
                   GiveWell gives to the people and the to company
                 </p>
+                <a href="https://give-well-inu.vercel.app/">
                 <button
                   type="button"
                   className="text-white text-lg bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                 >
                   Go see the App
                 </button>
+                </a>
               </div>
 
               <p className={"px-10"}></p>
@@ -87,12 +91,14 @@ export default function DevTeam() {
                 <p className="mb-3 font-normal text-center text-gray-300">
                   Twitter Blue INU is a fan based meme token
                 </p>
+                <a href="https://twitterblueinu.vercel.app/">
                 <button
                   type="button"
                   className="text-white text-lg bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                 >
                   Go see the App
                 </button>
+                </a>
               </div>
 
               <p className={"px-10"}></p>
@@ -107,12 +113,14 @@ export default function DevTeam() {
                 <p className="mb-3 font-normal text-center text-gray-300">
                   A viking-based NFT collection
                 </p>
+                <a href="https://runestonenft.vercel.app/">
                 <button
                   type="button"
                   className="text-white text-lg bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                 >
                   Go see the App
                 </button>
+                </a>
               </div>
             </div>
           </div>

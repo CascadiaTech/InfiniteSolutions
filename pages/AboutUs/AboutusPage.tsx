@@ -18,9 +18,10 @@ export default function Aboutus() {
       <HeaderComponent></HeaderComponent>
       <main className={styles.main}>
         <div className="flex flex-col text-center mt-48 justify-center">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white-900 md:text-5xl lg:text-6xl dark:text-white">
-            About Us
-          </h1>
+          
+            <p style={{ fontFamily: 'Equinox' }} className="text-4xl text-gray-100 sm:text-5xl md:text-6xl">
+              About Us
+            </p>
           <p className="mb-6 text-lg font-normal text-white-500 lg:text-xl mx-6 px-4 sm:px-16 xl:px-48 dark:text-white-400">
           We are a team of talented individuals looking to make a difference in Web3. Our industry is seen in a negative light by too many people, and we are here to change that. By bringing professionalism to the industry,
           delivering unique utilities, and presenting them through sound marketing strategies. We have a full team of graphic designers, 3D animators, 2D illustrators, content writers, public speakers, and developers ready to take your concept
