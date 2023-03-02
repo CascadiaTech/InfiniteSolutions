@@ -24,7 +24,17 @@ export default function Web3Marketing() {
               style={{ fontFamily: "Equinox" }}
               className="text-4xl text-gray-100 sm:text-5xl md:text-6xl"
             >
-              Marketing Stuff Goes Here <br /> "(xxxx)"
+              Innovative Marketing for Innovating companies  <br /> 
+              
+            </p>
+            <p
+              style={{ fontFamily: "Equinox" }}
+              className="text-1xl text-gray-100 mb-10 mx-5"
+            >
+              We deliver proven solutions to grow your community. We take a very different approach to growing your community then other marketing firms, through eduction, and monetization tactics.
+              There is always value in a community, and we are masters at unlocking that value so that you can use it to its full potential. We turn each community member, into a community ambassador.
+              Contact us to learn more about our unique offerings, we tailor our service offerings to fit the unique needs of our clients, and their business.  <br /> 
+              
             </p>
             <Link href="/ContactUs/ContactUsForm">
               <a
@@ -36,7 +46,7 @@ export default function Web3Marketing() {
             </Link>
           </div>
           <div className="flex space-y-8 my-20 js-show-on-scroll">
-            <div className="sm:flex flex-col md:flex flex-col lg:flex-row mx-auto justify-center"></div>
+            <div className="sm:flex flex-col md:flex  lg:flex-row mx-auto justify-center"></div>
           </div>
         </main>
       </div>
