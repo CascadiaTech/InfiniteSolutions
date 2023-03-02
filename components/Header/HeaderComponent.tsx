@@ -48,6 +48,13 @@ export default function HeaderComponent() {
                   </p>
                 </Link>
               </Dropdown.Item>
+              <Dropdown.Item>
+              <Link href="/ContactUs/ContactUsForm">
+                  <p  style={{ fontFamily: 'Exan-regular' }} className="cursor-pointer block py-2 pr-4 pl-3 text-black rounded md:bg-transparent hover:text-blue-700 md:p-0 dark:text-white">
+                    Contact Us
+                  </p>
+                </Link>
+              </Dropdown.Item>
               <Dropdown.Divider />
             </Dropdown>
           </div>

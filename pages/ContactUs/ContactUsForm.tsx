@@ -50,13 +50,13 @@ export default function ContactUsFormPage() {
       <HeaderComponent></HeaderComponent>
       <main className={styles.main}>
         <section className="bg-black">
-          <div className="py-40 md:py-24 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <div className="py-16 md:py-24 lg:py-16 px-4 mx-auto max-w-screen-md">
 
             <section className="bg-black">
-              <div className="py-40 md:py-24 lg:py-16 px-4 mx-auto max-w-screen-md">
+              <div className="py-28 md:py-24 lg:py-16 px-4 mx-auto max-w-screen-md">
               <p
               style={{ fontFamily: "Equinox" }}
-              className="text-4xl text-gray-100 sm:text-5xl md:text-6xl"
+              className="text-center text-4xl text-gray-100 sm:text-5xl md:text-6xl"
             >
               Contact Us
             </p>
@@ -115,24 +115,16 @@ export default function ContactUsFormPage() {
                   </div>
                     {!message && !emails && (
                       <p
-                        className={"Form-button"}
-                        style={{
-                          fontFamily: "montserrat, sans-serif",
-                          fontSize: "calc(3 * (0.25vw + 0.25vh))",
-                        }}
+                      className={'justify-center mx-auto text-center font-bold text-xl rounded-xl border border-white bg-black px-4 py-2'}
+                     
                       >
                         {" "}
                         Please enter message
                       </p>
                     )}
                     {message && emails && (
-                      <input
-                        style={{
-                          fontSize: "calc(3 * (0.25vw + 0.25vh))",
-                          fontFamily: "montserrat, sans-serif",
-                        }}
-                        className={"Form-button-input"}
-                        type="submit"
+                      <input className={'justify-center w-full mx-auto text-center font-bold text-xl rounded-xl border border-white bg-black px-4 py-2 transition-all duration-500 hover:cursor-pointer hover:bg-gray-600 hover:text-black'}
+                      type="submit"
                         value="Submit"
                       />
                     )}
